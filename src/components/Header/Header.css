@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 0;
-    background-color: var(--slack-color);
+    background-color: var(--primaryColor);
     color: white;
 }
 .header_left {
@@ -20,12 +20,12 @@
 
 .header_search {
     flex: 0.4;
-    background-color: #065F46;
+    background-color: var(--secondaryColor);
     text-align: center;
     display: flex;
     padding: 0 50px;
-    color: gray;
-    border: 1px gray solid;
+    color: rgb(16, 84, 116);
+    border: 1px rgb(49, 100, 107)solid;
     border-radius: 6px;
 }
 

@@ -1,19 +1,19 @@
 .sidebar {
     color: white;
     flex: 0.3;
-    background-color: var(--slack-color);
-    border-top: 1px solid #065F46;
+    background-color: var(--primaryColor);
+    border-top: 1px solid var(--secondaryColor);
     max-width: 260px;
 }
 .sidebar > hr {
     margin-top: 10px;
     margin-bottom: 10px;
-    border: 1px solid #065F46;
+    border: 1px solid var(--secondaryColor);
 }
 
 .sidebar_header {
     display: flex;
-    border-bottom: 1px solid #065F46; 
+    border-bottom: 1px solid var(--secondaryColor); 
     padding-bottom: 10px;
     padding: 13px;   
 }
@@ -39,13 +39,13 @@
     font-size: 14px;
     margin-top: 1px;
     margin-right: 2px;
-    color: green;
+    color: #2fe118;
 }
 
 
 .sidebar_header > .MuiSvgIcon-root {
     padding: 8px;
-    color: #065F46;
+    color: var(--secondaryColor);
     font-size: 18px;
     background-color: white;
     border-radius: 999px;

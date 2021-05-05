@@ -1,5 +1,6 @@
 body {
-    --slack-color: #064E3B;
+    --primaryColor: #054e76    ;
+    --secondaryColor: #105f8a;
     overflow: hidden;
 }
 
