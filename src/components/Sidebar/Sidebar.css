@@ -4,6 +4,8 @@
     background-color: var(--primaryColor);
     border-top: 1px solid var(--secondaryColor);
     max-width: 260px;
+    padding-bottom: 500px; 
+    overflow-y: scroll;
 }
 .sidebar > hr {
     margin-top: 10px;
@@ -49,4 +51,19 @@
     font-size: 18px;
     background-color: white;
     border-radius: 999px;
+}
+
+.sidebar_rooms {
+    color: white;
+    flex: 0.3;
+    background-color: var(--primaryColor);
+    border-top: 1px solid var(--secondaryColor);
+    max-width: 260px;
+    padding-bottom: 230px; 
+}
+
+.sidebar_rooms > hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid var(--secondaryColor);
 }

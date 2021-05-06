@@ -35,13 +35,14 @@ function Sidebar() {
         <QuestionAnswerIcon />
         {/* <CreateIcon /> */}
       </div>
+      <div className='sidebar_rooms'>
+        <SidebarOption Icon={AddIcon} addChannelOption title='Add Room' />
+        <hr />
 
-      <SidebarOption Icon={AddIcon} addChannelOption title='Add Room' />
-      <hr />
-
-      {channels.map((channel) => (
-        <SidebarOption title={channel.name} id={channel.id} />
-      ))}
+        {channels.map((channel) => (
+          <SidebarOption title={channel.name} id={channel.id} />
+        ))}
+      </div>
     </div>
   );
 }
